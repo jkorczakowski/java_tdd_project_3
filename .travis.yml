@@ -1,0 +1,10 @@
+dist: xenial
+services:
+  - xvfb
+
+addons:
+  firefox: latest
+  chrome: stable
+
+language: java
+jdk: openjdk11
